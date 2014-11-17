@@ -45,12 +45,14 @@ end
 # gem 'debugger', group: [:development, :test]
 
 #added by erik - November 13, 2014 02:38 PM
-group :development, :test do
+group :test do
   gem 'rspec-rails', '~> 3.0.0'
+  gem 'capybara'
   gem 'factory_girl_rails'
+  gem 'turnip'
 end
 
-gem "capybara"
+
 
 
 

@@ -2,8 +2,8 @@
 
 Feature: Statuses
 	
-  Background: 
-    Given There is a status system 
+#  Background: 
+#    Given There is a status system 
 
 
   Scenario: adding a new status
